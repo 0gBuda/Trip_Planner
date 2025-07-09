@@ -12,11 +12,6 @@ from core.models import (
 
 from core.schemas.user import UserCreate
 
-# from fastapi_users.exceptions import UserAlreadyExists
-
-# get_async_session_context = contextlib.asynccontextmanager(get_async_session)
-get_users_db_context = contextlib.asynccontextmanager(get_user_db)
-get_user_manager_context = contextlib.asynccontextmanager(get_user_manager)
 
 
 default_email = getenv("DEFAULT_EMAIL", "admin@admin.com")

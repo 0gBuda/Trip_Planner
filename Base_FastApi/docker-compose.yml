@@ -1,0 +1,9 @@
+services:
+  pg:
+    image: postgres
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: maksik
+      POSTGRES_PASSWORD: Yfdfkmysq2020
+    ports:
+      - "5432:5432"

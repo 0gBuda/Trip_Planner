@@ -1,0 +1,35 @@
+.map-container {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.error {
+  color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+.marker-content {
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.marker-content h1 {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+} 
